@@ -86,6 +86,6 @@ source $ZSH/oh-my-zsh.sh
 
 ## Source the .zsh subdirectory
 #setopt extended_glob
-for zshrc_config in ~/.zsh/*[^~] ; do
+for zshrc_config in ~/.zsh/*[^~].zsh ; do
     source $zshrc_config
 done
