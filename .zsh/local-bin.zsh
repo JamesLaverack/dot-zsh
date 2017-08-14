@@ -1,6 +1,8 @@
-# Use a local bin directory
-export LOCALBIN=~/bin
+# Use a local BIN and LIB directory set.
+export LOCAL_BIN="$HOME/.bin"
+export LOCAL_LIB="$HOME/.lib"
 
-if [ -e $LOCALBIN ]; then
-   export PATH=$LOCALBIN:$PATH
+# Add the local BIN to the path
+if [ -e $LOCAL_BIN ]; then
+   export PATH=$LOCAL_BIN:$PATH
 fi
