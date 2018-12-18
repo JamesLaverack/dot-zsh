@@ -57,7 +57,7 @@ ZSH_THEME="bernkastel"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git kubectl yarn vault terraform minikube lein gradle)
+plugins=(git kubectl yarn vault terraform minikube lein gradle docker colored-man-pages aws)
 
 source $ZSH/oh-my-zsh.sh
 
